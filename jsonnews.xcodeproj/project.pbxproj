@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5059046421F7896200E70EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059046321F7896200E70EE1 /* AppDelegate.swift */; };
-		5059046621F7896200E70EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059046521F7896200E70EE1 /* ViewController.swift */; };
 		5059046921F7896200E70EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5059046721F7896200E70EE1 /* Main.storyboard */; };
 		5059046B21F7896200E70EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5059046A21F7896200E70EE1 /* Assets.xcassets */; };
 		5059046E21F7896200E70EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5059046C21F7896200E70EE1 /* LaunchScreen.storyboard */; };
+		5059047721F792B200E70EE1 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059047621F792B200E70EE1 /* Article.swift */; };
+		5059047921F792C000E70EE1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059047821F792C000E70EE1 /* Model.swift */; };
+		5059047B21F79C8900E70EE1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059047A21F79C8900E70EE1 /* TableViewController.swift */; };
+		5059047D21F79CAA00E70EE1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059047C21F79CAA00E70EE1 /* TableViewCell.swift */; };
+		5059047F21F79FE400E70EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5059047E21F79FE400E70EE1 /* ViewController.swift */; };
+		5059048A21F7A7B900E70EE1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5059048921F7A7B900E70EE1 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5059046021F7896200E70EE1 /* jsonnews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonnews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5059046321F7896200E70EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5059046521F7896200E70EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5059046821F7896200E70EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5059046A21F7896200E70EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5059046D21F7896200E70EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5059046F21F7896200E70EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5059047621F792B200E70EE1 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		5059047821F792C000E70EE1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5059047A21F79C8900E70EE1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5059047C21F79CAA00E70EE1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5059047E21F79FE400E70EE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5059048921F7A7B900E70EE1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		5059045721F7896100E70EE1 = {
 			isa = PBXGroup;
 			children = (
+				5059048921F7A7B900E70EE1 /* .gitignore */,
 				5059046221F7896200E70EE1 /* jsonnews */,
 				5059046121F7896200E70EE1 /* Products */,
 			);
@@ -54,14 +65,91 @@
 		5059046221F7896200E70EE1 /* jsonnews */ = {
 			isa = PBXGroup;
 			children = (
-				5059046321F7896200E70EE1 /* AppDelegate.swift */,
-				5059046521F7896200E70EE1 /* ViewController.swift */,
-				5059046721F7896200E70EE1 /* Main.storyboard */,
-				5059046A21F7896200E70EE1 /* Assets.xcassets */,
-				5059046C21F7896200E70EE1 /* LaunchScreen.storyboard */,
-				5059046F21F7896200E70EE1 /* Info.plist */,
+				5059048221F7A75500E70EE1 /* Application */,
+				5059048121F7A74800E70EE1 /* Coomments */,
+				5059048021F7A73E00E70EE1 /* Supporting file */,
 			);
 			path = jsonnews;
+			sourceTree = "<group>";
+		};
+		5059047521F7924A00E70EE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5059047621F792B200E70EE1 /* Article.swift */,
+				5059047821F792C000E70EE1 /* Model.swift */,
+				5059047A21F79C8900E70EE1 /* TableViewController.swift */,
+				5059047C21F79CAA00E70EE1 /* TableViewCell.swift */,
+				5059047E21F79FE400E70EE1 /* ViewController.swift */,
+			);
+			name = Models;
+			path = ../Models;
+			sourceTree = "<group>";
+		};
+		5059048021F7A73E00E70EE1 /* Supporting file */ = {
+			isa = PBXGroup;
+			children = (
+				5059046F21F7896200E70EE1 /* Info.plist */,
+				5059046A21F7896200E70EE1 /* Assets.xcassets */,
+			);
+			path = "Supporting file";
+			sourceTree = "<group>";
+		};
+		5059048121F7A74800E70EE1 /* Coomments */ = {
+			isa = PBXGroup;
+			children = (
+				5059047521F7924A00E70EE1 /* Models */,
+				5059048421F7A76300E70EE1 /* View */,
+				5059048321F7A75C00E70EE1 /* Controller */,
+			);
+			path = Coomments;
+			sourceTree = "<group>";
+		};
+		5059048221F7A75500E70EE1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5059048821F7A78100E70EE1 /* Models */,
+				5059048721F7A77D00E70EE1 /* View */,
+				5059048621F7A77400E70EE1 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5059048321F7A75C00E70EE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5059048421F7A76300E70EE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5059046721F7896200E70EE1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5059048621F7A77400E70EE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5059048721F7A77D00E70EE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5059046C21F7896200E70EE1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5059048821F7A78100E70EE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5059046321F7896200E70EE1 /* AppDelegate.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5059048A21F7A7B900E70EE1 /* .gitignore in Resources */,
 				5059046E21F7896200E70EE1 /* LaunchScreen.storyboard in Resources */,
 				5059046B21F7896200E70EE1 /* Assets.xcassets in Resources */,
 				5059046921F7896200E70EE1 /* Main.storyboard in Resources */,
@@ -135,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5059046621F7896200E70EE1 /* ViewController.swift in Sources */,
+				5059047F21F79FE400E70EE1 /* ViewController.swift in Sources */,
+				5059047D21F79CAA00E70EE1 /* TableViewCell.swift in Sources */,
 				5059046421F7896200E70EE1 /* AppDelegate.swift in Sources */,
+				5059047721F792B200E70EE1 /* Article.swift in Sources */,
+				5059047921F792C000E70EE1 /* Model.swift in Sources */,
+				5059047B21F79C8900E70EE1 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLFYR2THT5;
-				INFOPLIST_FILE = jsonnews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/jsonnews/Supporting file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLFYR2THT5;
-				INFOPLIST_FILE = jsonnews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/jsonnews/Supporting file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
